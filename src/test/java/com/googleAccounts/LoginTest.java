@@ -12,9 +12,9 @@ public class LoginTest extends BeforeAfter {
     @Test
     public void testLoginValid() {
 
-        loginPage.enterValidLogin();
+        loginPage.enterLogin("kvl.qae@gmail.com");
         loginPage.clickNextButton();
-        passwordPage.enterPassword();
+        passwordPage.enterPassword("Qawsedr12345");
         accountPage.waitUntilLoad();
 
         String title = cDriver.getTitle();

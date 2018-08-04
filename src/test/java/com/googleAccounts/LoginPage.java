@@ -20,8 +20,8 @@ public class LoginPage {
         PageFactory.initElements(cDriver, this);
     }
 
-    public void enterValidLogin() {
-        loginField.sendKeys("kvl.qae@gmail.com");
+    public void enterLogin(String text) {
+        loginField.sendKeys(text);
     }
 
     public void clickNextButton() {

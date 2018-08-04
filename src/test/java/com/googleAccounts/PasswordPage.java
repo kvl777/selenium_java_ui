@@ -25,9 +25,9 @@ public class PasswordPage {
         PageFactory.initElements(cDriver, this);
     }
 
-    public void enterPassword() {
+    public void enterPassword(String text) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input[type='password']")));
-        passwordField.sendKeys("Qawsedr12345");
+        passwordField.sendKeys(text);
         nextButton.click();
     }
 }
