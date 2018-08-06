@@ -1,0 +1,9 @@
+1. API Documentation=<<<<http://swapi.co/documentation>>>> 
+	- поиск человека с id=1 (Luke Skywalker). 
+	- по его homeworld найти планету, проверить ее name (Tatooine) и population (200000). 
+	- для первого в списке этой планеты фильма проверить title (Attack of the Clones); проверить, принадлежит ли фильму Luke Skywalker и его планета. 
+2. UI Позитивный и негативный тесты на форму логина gmail. 
+	Использовать page object pattern
+	Предусловие: зарегистрирован новый пользователь
+				email: kvl.qae@gmail.com
+				pass: Qawsedr12345
